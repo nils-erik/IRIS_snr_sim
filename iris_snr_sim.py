@@ -139,7 +139,7 @@ def IRIS_ETC(filter = "K", mag = 21.0, flambda=1.62e-19, itime = 1.0,
     #           calc - either "snr" or "exptime"
 
     #fixed radius 0.2 arc sec
-    radius=0.1
+    radius=0.2
     radius /= scale
     sat_limit=50000
     if spectrum.lower() == "vega":
